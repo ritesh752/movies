@@ -1,0 +1,219 @@
+body{
+    background-color: rgb(101, 139, 139);
+}
+/* navbar */
+ header{
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+ }
+ header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+
+ }
+ nav {
+    
+   display: flex;
+   gap: 15px;
+ }
+ nav a {
+   color: white;
+   text-decoration: none;
+   font-weight: cold;
+ }
+ nav a :hover{
+   text-decoration: underline;
+ }
+ /* banner styling */
+ .banner{
+   background: url(https://www.freepik.com/free-vector/shiny-film-negative-cinema-background-with-text-space_201336957.htm#fromView=keyword&page=1&position=29&uuid=2e89d8e7-fc83-4523-9eb0-0f868f58159d&query=Movie+banner) no-repeat center center/cover;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: white;
+   position: relative;
+ }
+ .banner::before{
+   content: "";
+   position: absolute;
+   top: 0; left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.6);
+ }
+ .banner-content{
+   position: relative;
+   z-index: 1;
+   max-width: 700px;
+ }
+ .banner h1{
+   font-size: 40px;
+   margin-bottom: 10px;
+ }
+ .banner p{
+   font-size: 18px;
+   margin-bottom: 20px;
+
+ }
+ .btn{
+   display: inline-block;
+   padding: 10px 20px;
+   background: #ff4444;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+ }
+ .btn{
+   background: #cc0000;
+ }
+ .reviews{
+  padding: 30px;
+  background: #f9f9f9;
+  font-family:Arial, Helvetica, sans-serif ;
+ }
+ .reviews h1{
+  text-align: center;
+  margin-bottom: 30px;
+ }
+ .review-card{
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+   box-shadow: 0 4px 8px rgba (0,0,0,0.1);
+
+ }
+ .review-card img{
+  width: 150px;
+  border-radius: 8px;
+
+ }
+ .reviews-details h2 {
+  margin: 0 0 10px; 
+ }
+ .reviews-details p {
+  margin: 5px;
+
+ }
+ .reviews-details a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff4444;
+  font-weight: bold;
+  text-decoration: none;
+ }
+ .reviews-details a:hover {
+  text-decoration: underline;
+
+ }
+  .genres {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 18px;
+    background: #f8f9fb;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+
+  .genres h2 {
+    margin: 0 0 12px 0;
+    font-size: 1.25rem;
+    letter-spacing: 0.2px;
+  }
+
+  .genres-list {
+    list-style: none;           
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;           
+  }
+
+  .genres-list li {
+    padding: 8px 14px;
+    background: white;
+    border: 1px solid #e3e6ea;
+    border-radius: 999px;       
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    cursor: pointer;
+    transition: transform 160ms ease, box-shadow 160ms ease, ;
+    user-select: none;
+    
+  }
+
+  .genres-list li:hover,
+  .genres-list li:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    background: linear-gradient(180deg, #ffffff, #f6fbff);
+    outline: none;
+  }
+    .form-container {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 350px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+      background: #45a049;
+    }
+
+
+    
+
+ 
+
+ 
+ 
+
+ 
+
